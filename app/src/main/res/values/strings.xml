@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">satellite</string>
+    <string name="search">Search</string>
+    <string name="warning_three_digit">Lütfen en az 3 karakter araması yapınız!</string>
+    <string name="cost">Cost:</string>
+    <string name="height_mass">Height/Mass:</string>
+    <string name="last_position">Last Position:</string>
 </resources>
