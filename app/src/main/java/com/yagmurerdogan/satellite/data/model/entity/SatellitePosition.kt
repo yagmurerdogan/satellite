@@ -7,7 +7,7 @@ import com.yagmurerdogan.satellite.data.model.response.PositionCoordinate
 
 @Entity(tableName = "satellite_position")
 data class SatellitePosition(
-    @PrimaryKey(autoGenerate = true) val id: Int,
-    val satelliteId: Int,
+    @PrimaryKey(autoGenerate = true)
+    val id: Int,
     val positions: List<PositionCoordinate>
 )

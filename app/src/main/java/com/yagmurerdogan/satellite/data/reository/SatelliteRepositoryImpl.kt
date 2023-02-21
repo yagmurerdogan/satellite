@@ -25,7 +25,7 @@ class SatelliteRepositoryImpl @Inject constructor(
     ): Resource<List<SatelliteDetail?>?> {
         return when (val satelliteDetails = roomDataSource.getSatelliteDetails()) {
             is Resource.Success -> {
-                if (satelliteDetails.data?.any { it.satelliteId == satelliteId } == true) {
+                if (satelliteDetails.data?.any { it.id == satelliteId } == true) {
                     satelliteDetails
                 } else {
                     fileDataSource.getSatelliteDetail(SATELLITE_DETAIL_FILE)
@@ -41,7 +41,7 @@ class SatelliteRepositoryImpl @Inject constructor(
     ): Resource<List<SatellitePosition?>?> {
         return when (val satellitePositions = roomDataSource.getSatellitePositions()) {
             is Resource.Success -> {
-                if (satellitePositions.data?.any { it.satelliteId == satelliteId } == true) {
+                if (satellitePositions.data?.any { it.id == satelliteId } == true) {
                     satellitePositions
                 } else {
                     when (val listObject = fileDataSource.getSatellitePosition(fileName)) {

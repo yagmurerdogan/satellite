@@ -13,7 +13,7 @@ object SatelliteDetailUIModelMapper {
     ): List<SatelliteDetailUIModel?>? {
         return list?.map { satelliteDetail ->
             SatelliteDetailUIModel(
-                satelliteId = satelliteDetail?.satelliteId,
+                satelliteId = satelliteDetail?.id,
                 dateText = satelliteDetail?.firstFlight,
                 heightMassText = satelliteDetail?.height.toString().plus("/")
                     .plus(
@@ -21,7 +21,7 @@ object SatelliteDetailUIModelMapper {
                     ),
                 costText = (NumberFormat.getNumberInstance()
                     .format(satelliteDetail?.costPerLaunch)).toString(),
-                lastPosition = listPosition?.filter { position -> satelliteDetail?.satelliteId == position?.satelliteId }
+                lastPosition = listPosition?.filter { position -> satelliteDetail?.id == position?.id }
             )
         }
     }

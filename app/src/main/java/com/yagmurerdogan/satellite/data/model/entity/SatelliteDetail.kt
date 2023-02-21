@@ -8,7 +8,6 @@ import com.google.gson.annotations.SerializedName
 data class SatelliteDetail(
     @PrimaryKey(autoGenerate = true)
     val id : Int,
-    val satelliteId: Int,
     @SerializedName("cost_per_launch")
     val costPerLaunch: Long,
     @SerializedName("first_flight")
