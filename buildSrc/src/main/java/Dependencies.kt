@@ -1,0 +1,28 @@
+@file:Suppress("PackageDirectoryMismatch")
+
+object Dependencies {
+    const val appCompat = "androidx.appcompat:appcompat:${Versions.appCompatVersion}"
+    const val coreKtx = "androidx.core:core-ktx:${Versions.coreKtxVersion}"
+    const val material = "com.google.android.material:material:${Versions.materialVersion}"
+    const val constraintLayout = "androidx.constraintlayout:constraintlayout:${Versions.constraintLayoutVersion}"
+    const val junit4 = "junit:junit:${Versions.junit4Version}"
+    const val junitExtensions = "androidx.test.ext:junit:${Versions.junitExtensionsVersion}"
+    const val espressoCore = "androidx.test.espresso:espresso-core:${Versions.espressoCoreVersion}"
+    const val hilt = "com.google.dagger:hilt-android:${Versions.hilt}"
+    const val hiltCompiler = "com.google.dagger:hilt-android-compiler:${Versions.hilt}"
+    const val hiltGradlePlugin = "com.google.dagger:hilt-android-gradle-plugin:${Versions.hilt}"
+    const val workManager = "androidx.work:work-runtime-ktx:${Versions.workmanager}"
+    const val coroutinesCore = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Versions.coroutines}"
+    const val coroutinesAndroid = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${Versions.coroutines}"
+    const val gson = "com.google.code.gson:gson:${Versions.gson}"
+    const val room = "androidx.room:room-runtime:${Versions.room}"
+    const val roomKtx = "androidx.room:room-ktx:${Versions.room}"
+    const val roomCompiler = "androidx.room:room-compiler:${Versions.room}"
+    const val navigationComponent = "androidx.navigation:navigation-fragment-ktx:${Versions.navigationComponent}"
+    const val navigationComponentUi = "androidx.navigation:navigation-ui-ktx:${Versions.navigationComponent}"
+    const val navigationSafeArgs = "androidx.navigation:navigation-safe-args-gradle-plugin:${Versions.navigationComponent}"
+    const val viewModel = "androidx.lifecycle:lifecycle-viewmodel-ktx:${Versions.lifeCycleVersion}"
+    const val liveData = "androidx.lifecycle:lifecycle-livedata-ktx:${Versions.lifeCycleVersion}"
+    const val savedState = "androidx.lifecycle:lifecycle-viewmodel-savedstate:${Versions.lifeCycleVersion}"
+    const val lifeCycleRunTime = "androidx.lifecycle:lifecycle-runtime-ktx:${Versions.lifeCycleVersion}"
+}
