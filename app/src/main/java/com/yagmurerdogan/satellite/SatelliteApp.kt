@@ -1,4 +1,4 @@
-package com.yagmurerdogan
+package com.yagmurerdogan.satellite
 
 import android.app.Application
 import dagger.hilt.android.HiltAndroidApp
