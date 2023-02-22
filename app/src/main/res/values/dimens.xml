@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- DP Resources -->
+    <dimen name="grid_1dp">5dp</dimen>
+    <dimen name="grid_2dp">10dp</dimen>
+    <dimen name="grid_3dp">15dp</dimen>
+    <dimen name="grid_4dp">20dp</dimen>
+    <dimen name="grid_5dp">25dp</dimen>
+    <dimen name="grid_6dp">30dp</dimen>
+    <dimen name="grid_7dp">35dp</dimen>
+    <dimen name="grid_8dp">40dp</dimen>
+
+    <!-- SP Resources -->
+    <dimen name="small">14sp</dimen>
+    <dimen name="medium">28sp</dimen>
+
+</resources>
