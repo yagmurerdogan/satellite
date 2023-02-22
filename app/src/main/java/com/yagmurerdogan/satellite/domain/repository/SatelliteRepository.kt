@@ -5,7 +5,6 @@ import com.yagmurerdogan.satellite.data.model.entity.SatellitePosition
 import com.yagmurerdogan.satellite.data.model.response.Satellite
 import com.yagmurerdogan.satellite.util.Resource
 
-
 interface SatelliteRepository {
     suspend fun getSatellites(fileName: String): Resource<List<Satellite>?>
 
