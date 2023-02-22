@@ -2,9 +2,7 @@ package com.yagmurerdogan.satellite.ui.list
 
 import android.graphics.Color
 import android.view.ViewGroup
-import androidx.core.content.ContextCompat
 import androidx.recyclerview.widget.RecyclerView
-import com.yagmurerdogan.satellite.R
 import com.yagmurerdogan.satellite.databinding.ItemSatelliteListBinding
 import com.yagmurerdogan.satellite.domain.model.SatelliteUIModel
 import com.yagmurerdogan.satellite.util.viewBinding
